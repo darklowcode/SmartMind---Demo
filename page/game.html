@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SmartMind - Game</title>
+    <link rel="stylesheet" href="../src/css/game.css" />
+</head>
+
+<body>
+
+    <!-- Score kanan atas -->
+    <div class="hud" id="hud">
+        <div class="streak">Streak: <span id="streak">0</span>x</div>
+        <div class="score">Score: <span id="score">0</span></div>
+    </div>
+
+
+    <main class="game-wrap">
+        <!-- Box soal (border) -->
+        <section id="questionBox" class="question-box">
+            <div class="label">SOAL</div>
+            <h2 id="questionText" class="question-text"></h2>
+        </section>
+
+        <!-- Jawaban (muncul setelah typing selesai) -->
+        <section id="answers" class="answers hidden"></section>
+
+        <!-- Info kecil -->
+        <p id="hint" class="hint">Jawaban akan muncul setelah soal selesai “diketik”.</p>
+
+        <!-- SOUND EFFECTS -->
+        <audio id="sfxCorrect" src="../src/asset/sound/correct.wav" preload="auto"></audio>
+        <audio id="sfxWrong" src="../src/asset/sound/fail.wav" preload="auto"></audio>
+
+    </main>
+
+    <script src="../src/js/questions.js"></script>
+    <script src="../src/js/game.js"></script>
+</body>
+
+</html>
