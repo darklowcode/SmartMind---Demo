@@ -5,81 +5,81 @@ const questions = [
     choices: ["4", "5", "6", "7"],
     answer: 1
 },
-// {
-//     question: "5 × 4 = ?",
-//     choices: ["15", "20", "25", "30"],
-//     answer: 1
-// },
-// {
-//     question: "10 − 6 = ?",
-//     choices: ["2", "3", "4", "5"],
-//     answer: 2
-// },
-// {
-//     question: "12 ÷ 3 = ?",
-//     choices: ["2", "3", "4", "6"],
-//     answer: 2
-// },
-// {
-//     question: "7 + 8 = ?",
-//     choices: ["13", "14", "15", "16"],
-//     answer: 2
-// },
-// {
-//     question: "9 × 2 = ?",
-//     choices: ["16", "17", "18", "19"],
-//     answer: 2
-// },
-// {
-//     question: "20 − 9 = ?",
-//     choices: ["9", "10", "11", "12"],
-//     answer: 2
-// },
-// {
-//     question: "6 × 6 = ?",
-//     choices: ["30", "32", "34", "36"],
-//     answer: 3
-// },
-// {
-//     question: "15 ÷ 5 = ?",
-//     choices: ["2", "3", "4", "5"],
-//     answer: 1
-// },
-// {
-//     question: "8 + 12 = ?",
-//     choices: ["18", "19", "20", "21"],
-//     answer: 2
-// },
-// {
-//     question: "25 − 7 = ?",
-//     choices: ["16", "17", "18", "19"],
-//     answer: 2
-// },
-// {
-//     question: "4 × 9 = ?",
-//     choices: ["32", "34", "36", "38"],
-//     answer: 2
-// },
-// {
-//     question: "14 ÷ 2 = ?",
-//     choices: ["6", "7", "8", "9"],
-//     answer: 1
-// },
-// {
-//     question: "3² = ?",
-//     choices: ["6", "7", "8", "9"],
-//     answer: 3
-// },
-// {
-//     question: "10² = ?",
-//     choices: ["10", "50", "100", "200"],
-//     answer: 2
-// },
-// {
-//     question: "100 ÷ 10 = ?",
-//     choices: ["5", "10", "15", "20"],
-//     answer: 1
-// },
+{
+    question: "5 × 4 = ?",
+    choices: ["15", "20", "25", "30"],
+    answer: 1
+},
+{
+    question: "10 − 6 = ?",
+    choices: ["2", "3", "4", "5"],
+    answer: 2
+},
+{
+    question: "12 ÷ 3 = ?",
+    choices: ["2", "3", "4", "6"],
+    answer: 2
+},
+{
+    question: "7 + 8 = ?",
+    choices: ["13", "14", "15", "16"],
+    answer: 2
+},
+{
+    question: "9 × 2 = ?",
+    choices: ["16", "17", "18", "19"],
+    answer: 2
+},
+{
+    question: "20 − 9 = ?",
+    choices: ["9", "10", "11", "12"],
+    answer: 2
+},
+{
+    question: "6 × 6 = ?",
+    choices: ["30", "32", "34", "36"],
+    answer: 3
+},
+{
+    question: "15 ÷ 5 = ?",
+    choices: ["2", "3", "4", "5"],
+    answer: 1
+},
+{
+    question: "8 + 12 = ?",
+    choices: ["18", "19", "20", "21"],
+    answer: 2
+},
+{
+    question: "25 − 7 = ?",
+    choices: ["16", "17", "18", "19"],
+    answer: 2
+},
+{
+    question: "4 × 9 = ?",
+    choices: ["32", "34", "36", "38"],
+    answer: 2
+},
+{
+    question: "14 ÷ 2 = ?",
+    choices: ["6", "7", "8", "9"],
+    answer: 1
+},
+{
+    question: "3² = ?",
+    choices: ["6", "7", "8", "9"],
+    answer: 3
+},
+{
+    question: "10² = ?",
+    choices: ["10", "50", "100", "200"],
+    answer: 2
+},
+{
+    question: "100 ÷ 10 = ?",
+    choices: ["5", "10", "15", "20"],
+    answer: 1
+},
 {
     question: "11 + 9 = ?",
     choices: ["18", "19", "20", "21"],
@@ -126,56 +126,56 @@ const questions = [
     answer: 2
 },
 
-// {
-//     question: "Planet terdekat dengan matahari adalah?",
-//     choices: ["Venus", "Merkurius", "Bumi", "Mars"],
-//     answer: 1
-// },
-// {
-//     question: "Makhluk hidup bernapas menggunakan?",
-//     choices: ["Air", "Oksigen", "Tanah", "Api"],
-//     answer: 1
-// },
-// {
-//     question: "Bagian tumbuhan tempat fotosintesis?",
-//     choices: ["Akar", "Batang", "Daun", "Bunga"],
-//     answer: 2
-// },
-// {
-//     question: "Air mendidih pada suhu?",
-//     choices: ["50°C", "75°C", "100°C", "150°C"],
-//     answer: 2
-// },
-// {
-//     question: "Hewan yang bertelur disebut?",
-//     choices: ["Vivipar", "Ovipar", "Ovovivipar", "Herbivora"],
-//     answer: 1
-// },
-// {
-//     question: "Matahari adalah?",
-//     choices: ["Planet", "Bintang", "Satelit", "Asteroid"],
-//     answer: 1
-// },
-// {
-//     question: "Indra untuk melihat adalah?",
-//     choices: ["Hidung", "Telinga", "Mata", "Kulit"],
-//     answer: 2
-// },
-// {
-//     question: "Manusia bernapas dengan?",
-//     choices: ["Insang", "Paru-paru", "Kulit", "Sirip"],
-//     answer: 1
-// },
-// {
-//     question: "Air berubah menjadi es disebut?",
-//     choices: ["Menguap", "Mencair", "Membeku", "Mengembun"],
-//     answer: 2
-// },
-// {
-//     question: "Energi matahari disebut energi?",
-//     choices: ["Listrik", "Kimia", "Surya", "Panas bumi"],
-//     answer: 2
-// },
+{
+    question: "Planet terdekat dengan matahari adalah?",
+    choices: ["Venus", "Merkurius", "Bumi", "Mars"],
+    answer: 1
+},
+{
+    question: "Makhluk hidup bernapas menggunakan?",
+    choices: ["Air", "Oksigen", "Tanah", "Api"],
+    answer: 1
+},
+{
+    question: "Bagian tumbuhan tempat fotosintesis?",
+    choices: ["Akar", "Batang", "Daun", "Bunga"],
+    answer: 2
+},
+{
+    question: "Air mendidih pada suhu?",
+    choices: ["50°C", "75°C", "100°C", "150°C"],
+    answer: 2
+},
+{
+    question: "Hewan yang bertelur disebut?",
+    choices: ["Vivipar", "Ovipar", "Ovovivipar", "Herbivora"],
+    answer: 1
+},
+{
+    question: "Matahari adalah?",
+    choices: ["Planet", "Bintang", "Satelit", "Asteroid"],
+    answer: 1
+},
+{
+    question: "Indra untuk melihat adalah?",
+    choices: ["Hidung", "Telinga", "Mata", "Kulit"],
+    answer: 2
+},
+{
+    question: "Manusia bernapas dengan?",
+    choices: ["Insang", "Paru-paru", "Kulit", "Sirip"],
+    answer: 1
+},
+{
+    question: "Air berubah menjadi es disebut?",
+    choices: ["Menguap", "Mencair", "Membeku", "Mengembun"],
+    answer: 2
+},
+{
+    question: "Energi matahari disebut energi?",
+    choices: ["Listrik", "Kimia", "Surya", "Panas bumi"],
+    answer: 2
+},
 
 {
     question: "Ibu kota Indonesia adalah?",
@@ -243,56 +243,56 @@ const questions = [
     choices: ["10", "20", "5", "15"],
     answer: 1
 },
-// {
-//     question: "Jika hari ini Senin, besok adalah?",
-//     choices: ["Minggu", "Selasa", "Rabu", "Kamis"],
-//     answer: 1
-// },
-// {
-//     question: "Urutan setelah B adalah?",
-//     choices: ["A", "C", "D", "E"],
-//     answer: 1
-// },
-// {
-//     question: "Semua burung bisa?",
-//     choices: ["Berenang", "Terbang", "Berjalan", "Tidur"],
-//     answer: 1
-// },
-// {
-//     question: "Pagi → Siang → ?",
-//     choices: ["Malam", "Sore", "Subuh", "Dini hari"],
-//     answer: 1
-// },
-// {
-//     question: "Api itu?",
-//     choices: ["Dingin", "Basah", "Panas", "Padat"],
-//     answer: 2
-// },
-// {
-//     question: "1 jam = ? menit",
-//     choices: ["30", "45", "60", "90"],
-//     answer: 2
-// },
-// {
-//     question: "Lawan kata besar adalah?",
-//     choices: ["Tinggi", "Lebar", "Kecil", "Panjang"],
-//     answer: 2
-// },
-// {
-//     question: "Bentuk bola adalah?",
-//     choices: ["Datar", "Kotak", "Bulat", "Segitiga"],
-//     answer: 2
-// },
-// {
-//     question: "Alat untuk menulis?",
-//     choices: ["Penghapus", "Pensil", "Penggaris", "Buku"],
-//     answer: 1
-// },
-// {
-//     question: "Warna lampu lalu lintas untuk berhenti?",
-//     choices: ["Hijau", "Kuning", "Merah", "Biru"],
-//     answer: 2
-// },
+{
+    question: "Jika hari ini Senin, besok adalah?",
+    choices: ["Minggu", "Selasa", "Rabu", "Kamis"],
+    answer: 1
+},
+{
+    question: "Urutan setelah B adalah?",
+    choices: ["A", "C", "D", "E"],
+    answer: 1
+},
+{
+    question: "Semua burung bisa?",
+    choices: ["Berenang", "Terbang", "Berjalan", "Tidur"],
+    answer: 1
+},
+{
+    question: "Pagi → Siang → ?",
+    choices: ["Malam", "Sore", "Subuh", "Dini hari"],
+    answer: 1
+},
+{
+    question: "Api itu?",
+    choices: ["Dingin", "Basah", "Panas", "Padat"],
+    answer: 2
+},
+{
+    question: "1 jam = ? menit",
+    choices: ["30", "45", "60", "90"],
+    answer: 2
+},
+{
+    question: "Lawan kata besar adalah?",
+    choices: ["Tinggi", "Lebar", "Kecil", "Panjang"],
+    answer: 2
+},
+{
+    question: "Bentuk bola adalah?",
+    choices: ["Datar", "Kotak", "Bulat", "Segitiga"],
+    answer: 2
+},
+{
+    question: "Alat untuk menulis?",
+    choices: ["Penghapus", "Pensil", "Penggaris", "Buku"],
+    answer: 1
+},
+{
+    question: "Warna lampu lalu lintas untuk berhenti?",
+    choices: ["Hijau", "Kuning", "Merah", "Biru"],
+    answer: 2
+},
 {
     question: "Siang hari matahari berada di?",
     choices: ["Barat", "Timur", "Atas", "Bawah"],
